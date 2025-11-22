@@ -1,32 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Demostración de Output en Javascript</title>
-    <script>
-        // Mensaje en consola al cargar la página
-        console.log("La página ha cargado correctamente.");
+// Mensaje en consola al cargar la página
+console.log("La página ha cargado correctamente.");
 
-        // Función para mostrar alerta con tu nombre
-        function mostrarNombre() {
-            alert("Sergio Ángel");
-        }
+// Función para mostrar alerta con tu nombre
+function mostrarNombre() {
+    alert("Sergio Ángel");
+}
 
-        // Función para actualizar el párrafo
-        function actualizarTexto() {
-            document.getElementById("miParrafo").textContent = "¡Texto actualizado con Javascript!";
-        }
-    </script>
-</head>
-<body>
-
-    <h1>Demostración de Output en Javascript</h1>
-
-    <button onclick="mostrarNombre()">Mostrar mi nombre</button>
-    <br><br>
-
-    <p id="miParrafo"></p>
-    <button onclick="actualizarTexto()">Actualizar párrafo</button>
-
-</body>
-</html>
+// Función para actualizar el párrafo
+function actualizarTexto() {
+    document.getElementById("miParrafo").textContent =
+        "¡Texto actualizado con Javascript!";
+}
